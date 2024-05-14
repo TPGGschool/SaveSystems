@@ -29,7 +29,7 @@ public class textChanger : MonoBehaviour
     public void readStringInput(string s)
     {
         betweenScenesScr.input = s;
-        Debug.Log(betweenScenesScr.input);
+        betweenScenesScr.saveInput();
     }
 
 
